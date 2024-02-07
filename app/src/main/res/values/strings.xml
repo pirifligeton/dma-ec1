@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyEc1DMA</string>
+    <string name="strApp1Main">Application 1</string>
+    <string name="strApp2Main">Application 2</string>
+    <string name="strApp3Main">Application 3</string>
+    <string name="strApp4Main">Application 4</string>
+    <string name="strTitleMain">Main</string>
+    <string name="strTitleStorage">Storage</string>
+    <string name="strQuantityStorage">Quantity:</string>
+    <string name="strPriceStorage">Price:</string>
+    <string name="strCalculate">Calculate</string>
+    <string name="strResult">Result:</string>
+    <string name="strBack">Back</string>
+    <string name="strTitleCompany">Company</string>
+    <string name="strAmountCompany">Amount:</string>
+    <string name="strInstalmentsCompany">Instalments:</string>
+    <string name="strInstalmentValueCompany">Instalment Value:</string>
+    <string name="strTitleDni">DNI</string>
+    <string name="strDobDni">DOB:</string>
+    <string name="strTitleEven">Even</string>
+    <string name="strShow">Show</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clyMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvTitleMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/strTitleMain"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnApp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/lightgray"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/strApp1Main"
+        android:textSize="24sp"
+        android:onClick="goApp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvTitleMain" />
+
+    <Button
+        android:id="@+id/btnApp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightgray"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/strApp2Main"
+        android:textSize="24sp"
+        android:onClick="goApp2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApp1" />
+
+    <Button
+        android:id="@+id/btnApp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightgray"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/strApp3Main"
+        android:textSize="24sp"
+        android:onClick="goApp3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApp2" />
+
+    <Button
+        android:id="@+id/btnApp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/lightgray"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/strApp4Main"
+        android:textSize="24sp"
+        android:onClick="goApp4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApp3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
